@@ -47,6 +47,11 @@ html {
   width: 430px;
 }
 
+.issue-3 .issue__content div a,
+.issue-2 .issue__content div a {
+  color: var(--logo-color);
+}
+
 .issue__content {
   display: flex;
   flex-direction: column;
@@ -110,4 +115,28 @@ footer {
 
 .footer__content p:last-child a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  .issue img {
+    width: 300px;
+  }
+
+  .issue__sold-out .issue__content div {
+    width: 30ch;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  .content {
+    align-items: center;
+  }
+
+  .content p {
+    text-align: center;
+  }
+
+  .content p:first-child {
+    font-size: 16px;
+  }
 }
