@@ -139,4 +139,8 @@ footer {
   .content p:first-child {
     font-size: 16px;
   }
+
+  .footer__content a {
+    font-size: 16px;
+  }
 }
