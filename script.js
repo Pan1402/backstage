@@ -48,7 +48,7 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { threshold: 1.0 }
+  { threshold: 0.5 }
 );
 
 issues.forEach((el) => {
